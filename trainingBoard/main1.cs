@@ -32,5 +32,13 @@ namespace trainingBoard
             this.Text = "trainingBoard - Gestion des Formations" + user_and_date;
             
         }
+
+        private void aProposDeTrainingBoardToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Apropos frm = new Apropos();
+            frm.StartPosition = FormStartPosition.CenterParent;
+            frm.ShowDialog(this);
+            //frm.ShowDialog();
+        }
     }
 }

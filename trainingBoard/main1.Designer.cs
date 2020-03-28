@@ -66,6 +66,7 @@
             this.aProposDeTrainingBoardToolStripMenuItem.Name = "aProposDeTrainingBoardToolStripMenuItem";
             this.aProposDeTrainingBoardToolStripMenuItem.Size = new System.Drawing.Size(213, 22);
             this.aProposDeTrainingBoardToolStripMenuItem.Text = "A propos de trainingBoard";
+            this.aProposDeTrainingBoardToolStripMenuItem.Click += new System.EventHandler(this.aProposDeTrainingBoardToolStripMenuItem_Click);
             // 
             // Main1
             // 
