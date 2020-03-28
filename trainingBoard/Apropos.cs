@@ -17,7 +17,12 @@ namespace trainingBoard
             InitializeComponent();
         }
 
-        private void buttonclose_Click(object sender, EventArgs e)
+        private void linkLabelGithub_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/PhineasPhreak/trainingBoard");
+        }
+
+        private void buttonClose_Click_1(object sender, EventArgs e)
         {
             Close();
         }

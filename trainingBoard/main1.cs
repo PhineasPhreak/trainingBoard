@@ -35,9 +35,9 @@ namespace trainingBoard
 
         private void aProposDeTrainingBoardToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Apropos frm = new Apropos();
-            frm.StartPosition = FormStartPosition.CenterParent;
-            frm.ShowDialog(this);
+            Apropos frmApropos = new Apropos();
+            frmApropos.StartPosition = FormStartPosition.CenterParent;
+            frmApropos.ShowDialog(this);
             //frm.ShowDialog();
         }
     }
