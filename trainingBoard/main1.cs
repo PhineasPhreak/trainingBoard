@@ -10,23 +10,27 @@ using System.Windows.Forms;
 
 namespace trainingBoard
 {
-    public partial class main1 : Form
+    public partial class Main1 : Form
     {
-        public main1()
+        public Main1()
         {
             InitializeComponent();
+
+            // Center Main to center
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
-        private void main1_Load(object sender, EventArgs e)
+        private void Main1_Load_1(object sender, EventArgs e)
         {
-            // Variables :
+            // Variables
             string current_user = Environment.UserName;
-            DateTime current_date = DateTime.Now;
+            var current_date = DateTime.Now.ToString("dd/MM/yyyy");
 
-            string user_and_date = ($" - {current_user} {current_date}");
+            string user_and_date = ($" - {current_user} - {current_date}");
 
             // Initialisation main1
-            this.Text = "trainingBoard - Gestion des Formation" + user_and_date;
+            this.Text = "trainingBoard - Gestion des Formations" + user_and_date;
+            
         }
     }
 }

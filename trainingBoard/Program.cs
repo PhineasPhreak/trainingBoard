@@ -16,7 +16,7 @@ namespace trainingBoard
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new main1());
+            Application.Run(new Main1());
         }
     }
 }
