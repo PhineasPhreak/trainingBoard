@@ -40,5 +40,10 @@ namespace trainingBoard
             frmApropos.ShowDialog(this);
             //frm.ShowDialog();
         }
+
+        private void quitterToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

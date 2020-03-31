@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Apropos));
-            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
             this.groupBoxProductInformation = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -47,20 +45,11 @@
             this.label12 = new System.Windows.Forms.Label();
             this.linkLabelGithub = new System.Windows.Forms.LinkLabel();
             this.labelTitle = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
+            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
             this.groupBoxProductInformation.SuspendLayout();
             this.groupBoxLicenceInformation.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBoxLogo
-            // 
-            this.pictureBoxLogo.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxLogo.Image")));
-            this.pictureBoxLogo.Location = new System.Drawing.Point(12, 12);
-            this.pictureBoxLogo.Name = "pictureBoxLogo";
-            this.pictureBoxLogo.Size = new System.Drawing.Size(80, 80);
-            this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxLogo.TabIndex = 0;
-            this.pictureBoxLogo.TabStop = false;
             // 
             // groupBoxProductInformation
             // 
@@ -245,6 +234,16 @@
             this.labelTitle.TabIndex = 7;
             this.labelTitle.Text = "trainingBoard";
             // 
+            // pictureBoxLogo
+            // 
+            this.pictureBoxLogo.Image = global::trainingBoard.Properties.Resources.trainingBoard_200x200;
+            this.pictureBoxLogo.Location = new System.Drawing.Point(12, 12);
+            this.pictureBoxLogo.Name = "pictureBoxLogo";
+            this.pictureBoxLogo.Size = new System.Drawing.Size(80, 80);
+            this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxLogo.TabIndex = 0;
+            this.pictureBoxLogo.TabStop = false;
+            // 
             // Apropos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -262,11 +261,11 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Apropos";
             this.Text = "A propos de trainingBoard";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.groupBoxProductInformation.ResumeLayout(false);
             this.groupBoxProductInformation.PerformLayout();
             this.groupBoxLicenceInformation.ResumeLayout(false);
             this.groupBoxLicenceInformation.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
