@@ -18,5 +18,3 @@ La gestion de la formation consiste à gérer, suivre et contrôler toutes les d
 Software sous **MIT License** </br>
 Lien: [FR](https://fr.wikipedia.org/wiki/Licence_MIT), [EN](https://en.wikipedia.org/wiki/MIT_License)
 
-## DevLog
-On-going...
