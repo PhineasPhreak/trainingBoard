@@ -51,7 +51,7 @@
             this.aideToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(784, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(984, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -94,7 +94,7 @@
             this.buttonMutualFormation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonMutualFormation.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonMutualFormation.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.buttonMutualFormation.Location = new System.Drawing.Point(112, 106);
+            this.buttonMutualFormation.Location = new System.Drawing.Point(160, 107);
             this.buttonMutualFormation.Name = "buttonMutualFormation";
             this.buttonMutualFormation.Size = new System.Drawing.Size(140, 28);
             this.buttonMutualFormation.TabIndex = 1;
@@ -110,7 +110,7 @@
             this.buttonFormateur.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonFormateur.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonFormateur.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.buttonFormateur.Location = new System.Drawing.Point(298, 106);
+            this.buttonFormateur.Location = new System.Drawing.Point(504, 107);
             this.buttonFormateur.Name = "buttonFormateur";
             this.buttonFormateur.Size = new System.Drawing.Size(140, 28);
             this.buttonFormateur.TabIndex = 2;
@@ -126,7 +126,7 @@
             this.buttonSyndicat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSyndicat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSyndicat.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.buttonSyndicat.Location = new System.Drawing.Point(112, 173);
+            this.buttonSyndicat.Location = new System.Drawing.Point(160, 243);
             this.buttonSyndicat.Name = "buttonSyndicat";
             this.buttonSyndicat.Size = new System.Drawing.Size(140, 28);
             this.buttonSyndicat.TabIndex = 3;
@@ -142,7 +142,7 @@
             this.buttonStagiaire.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonStagiaire.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonStagiaire.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.buttonStagiaire.Location = new System.Drawing.Point(298, 173);
+            this.buttonStagiaire.Location = new System.Drawing.Point(504, 243);
             this.buttonStagiaire.Name = "buttonStagiaire";
             this.buttonStagiaire.Size = new System.Drawing.Size(140, 28);
             this.buttonStagiaire.TabIndex = 4;
@@ -159,10 +159,11 @@
             this.groupBox1.Controls.Add(this.buttonMutualFormation);
             this.groupBox1.Controls.Add(this.buttonFormateur);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(117, 57);
+            this.groupBox1.Location = new System.Drawing.Point(89, 104);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(80);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(20);
-            this.groupBox1.Size = new System.Drawing.Size(551, 326);
+            this.groupBox1.Size = new System.Drawing.Size(806, 368);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Choisir une action a effectuer";
@@ -170,10 +171,10 @@
             // buttonQuitter
             // 
             this.buttonQuitter.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonQuitter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.buttonQuitter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
             this.buttonQuitter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonQuitter.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonQuitter.Location = new System.Drawing.Point(697, 406);
+            this.buttonQuitter.Location = new System.Drawing.Point(897, 526);
             this.buttonQuitter.Name = "buttonQuitter";
             this.buttonQuitter.Size = new System.Drawing.Size(75, 23);
             this.buttonQuitter.TabIndex = 6;
@@ -185,12 +186,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 441);
+            this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.buttonQuitter);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MinimumSize = new System.Drawing.Size(800, 480);
+            this.MinimumSize = new System.Drawing.Size(1000, 600);
             this.Name = "Main1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main1";
