@@ -32,18 +32,20 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fichierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quitterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aideToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.buttonMutualFormation = new System.Windows.Forms.Button();
-            this.buttonFormateur = new System.Windows.Forms.Button();
-            this.buttonSyndicat = new System.Windows.Forms.Button();
-            this.buttonStagiaire = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.buttonQuitter = new System.Windows.Forms.Button();
             this.optionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aideToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aProposDeTrainingBoardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.buttonSyndicat = new System.Windows.Forms.Button();
+            this.buttonStagiaire = new System.Windows.Forms.Button();
+            this.buttonMutualFormation = new System.Windows.Forms.Button();
+            this.buttonFormateur = new System.Windows.Forms.Button();
+            this.buttonQuitter = new System.Windows.Forms.Button();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -54,7 +56,7 @@
             this.aideToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(984, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1284, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -75,111 +77,6 @@
             this.quitterToolStripMenuItem.Text = "&Quitter";
             this.quitterToolStripMenuItem.Click += new System.EventHandler(this.quitterToolStripMenuItem_Click);
             // 
-            // aideToolStripMenuItem
-            // 
-            this.aideToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aProposDeTrainingBoardToolStripMenuItem});
-            this.aideToolStripMenuItem.Name = "aideToolStripMenuItem";
-            this.aideToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
-            this.aideToolStripMenuItem.Text = "&Aide";
-            // 
-            // buttonMutualFormation
-            // 
-            this.buttonMutualFormation.AutoSize = true;
-            this.buttonMutualFormation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(149)))), ((int)(((byte)(211)))));
-            this.buttonMutualFormation.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonMutualFormation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonMutualFormation.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonMutualFormation.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.buttonMutualFormation.Location = new System.Drawing.Point(160, 107);
-            this.buttonMutualFormation.Name = "buttonMutualFormation";
-            this.buttonMutualFormation.Size = new System.Drawing.Size(140, 28);
-            this.buttonMutualFormation.TabIndex = 1;
-            this.buttonMutualFormation.Text = "Mutual Formation";
-            this.buttonMutualFormation.UseVisualStyleBackColor = false;
-            // 
-            // buttonFormateur
-            // 
-            this.buttonFormateur.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonFormateur.AutoSize = true;
-            this.buttonFormateur.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(214)))), ((int)(((byte)(98)))));
-            this.buttonFormateur.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonFormateur.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonFormateur.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonFormateur.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.buttonFormateur.Location = new System.Drawing.Point(504, 107);
-            this.buttonFormateur.Name = "buttonFormateur";
-            this.buttonFormateur.Size = new System.Drawing.Size(140, 28);
-            this.buttonFormateur.TabIndex = 2;
-            this.buttonFormateur.Text = "Formateur";
-            this.buttonFormateur.UseVisualStyleBackColor = false;
-            // 
-            // buttonSyndicat
-            // 
-            this.buttonSyndicat.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.buttonSyndicat.AutoSize = true;
-            this.buttonSyndicat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(90)))), ((int)(((byte)(37)))));
-            this.buttonSyndicat.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonSyndicat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonSyndicat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonSyndicat.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.buttonSyndicat.Location = new System.Drawing.Point(160, 243);
-            this.buttonSyndicat.Name = "buttonSyndicat";
-            this.buttonSyndicat.Size = new System.Drawing.Size(140, 28);
-            this.buttonSyndicat.TabIndex = 3;
-            this.buttonSyndicat.Text = "Syndicat";
-            this.buttonSyndicat.UseVisualStyleBackColor = false;
-            // 
-            // buttonStagiaire
-            // 
-            this.buttonStagiaire.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonStagiaire.AutoSize = true;
-            this.buttonStagiaire.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(167)))), ((int)(((byte)(45)))));
-            this.buttonStagiaire.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonStagiaire.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonStagiaire.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonStagiaire.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.buttonStagiaire.Location = new System.Drawing.Point(504, 243);
-            this.buttonStagiaire.Name = "buttonStagiaire";
-            this.buttonStagiaire.Size = new System.Drawing.Size(140, 28);
-            this.buttonStagiaire.TabIndex = 4;
-            this.buttonStagiaire.Text = "Stagiaire";
-            this.buttonStagiaire.UseVisualStyleBackColor = false;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.Controls.Add(this.buttonSyndicat);
-            this.groupBox1.Controls.Add(this.buttonStagiaire);
-            this.groupBox1.Controls.Add(this.buttonMutualFormation);
-            this.groupBox1.Controls.Add(this.buttonFormateur);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(89, 96);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(80);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(20);
-            this.groupBox1.Size = new System.Drawing.Size(806, 368);
-            this.groupBox1.TabIndex = 5;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Choisir une action a effectué";
-            // 
-            // buttonQuitter
-            // 
-            this.buttonQuitter.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonQuitter.AutoSize = true;
-            this.buttonQuitter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.buttonQuitter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonQuitter.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonQuitter.Location = new System.Drawing.Point(897, 521);
-            this.buttonQuitter.Name = "buttonQuitter";
-            this.buttonQuitter.Size = new System.Drawing.Size(75, 28);
-            this.buttonQuitter.TabIndex = 6;
-            this.buttonQuitter.Text = "Quitter";
-            this.buttonQuitter.UseVisualStyleBackColor = false;
-            this.buttonQuitter.Click += new System.EventHandler(this.buttonQuitter_Click);
-            // 
             // optionToolStripMenuItem
             // 
             this.optionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -192,8 +89,16 @@
             // 
             this.optionsToolStripMenuItem.Image = global::trainingBoard.Properties.Resources.app_option;
             this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
-            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.optionsToolStripMenuItem.Text = "Options...";
+            // 
+            // aideToolStripMenuItem
+            // 
+            this.aideToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aProposDeTrainingBoardToolStripMenuItem});
+            this.aideToolStripMenuItem.Name = "aideToolStripMenuItem";
+            this.aideToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
+            this.aideToolStripMenuItem.Text = "&Aide";
             // 
             // aProposDeTrainingBoardToolStripMenuItem
             // 
@@ -203,16 +108,151 @@
             this.aProposDeTrainingBoardToolStripMenuItem.Text = "A propos de trainingBoard";
             this.aProposDeTrainingBoardToolStripMenuItem.Click += new System.EventHandler(this.aProposDeTrainingBoardToolStripMenuItem_Click);
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Controls.Add(this.tableLayoutPanel1);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(14, 29);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(5);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(1256, 634);
+            this.groupBox1.TabIndex = 5;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Choisir une action a effectué";
+            // 
+            // buttonSyndicat
+            // 
+            this.buttonSyndicat.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonSyndicat.AutoSize = true;
+            this.buttonSyndicat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(120)))), ((int)(((byte)(67)))));
+            this.buttonSyndicat.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonSyndicat.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
+            this.buttonSyndicat.FlatAppearance.BorderSize = 2;
+            this.buttonSyndicat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSyndicat.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSyndicat.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.buttonSyndicat.Image = global::trainingBoard.Properties.Resources.Syndicat;
+            this.buttonSyndicat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonSyndicat.Location = new System.Drawing.Point(135, 347);
+            this.buttonSyndicat.Margin = new System.Windows.Forms.Padding(3, 40, 75, 3);
+            this.buttonSyndicat.Name = "buttonSyndicat";
+            this.buttonSyndicat.Size = new System.Drawing.Size(415, 260);
+            this.buttonSyndicat.TabIndex = 3;
+            this.buttonSyndicat.Text = "Syndicat";
+            this.buttonSyndicat.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.buttonSyndicat.UseVisualStyleBackColor = false;
+            // 
+            // buttonStagiaire
+            // 
+            this.buttonStagiaire.AutoSize = true;
+            this.buttonStagiaire.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(167)))), ((int)(((byte)(45)))));
+            this.buttonStagiaire.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonStagiaire.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
+            this.buttonStagiaire.FlatAppearance.BorderSize = 2;
+            this.buttonStagiaire.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonStagiaire.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonStagiaire.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.buttonStagiaire.Image = global::trainingBoard.Properties.Resources.Stagiaire;
+            this.buttonStagiaire.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.buttonStagiaire.Location = new System.Drawing.Point(700, 347);
+            this.buttonStagiaire.Margin = new System.Windows.Forms.Padding(75, 40, 3, 3);
+            this.buttonStagiaire.Name = "buttonStagiaire";
+            this.buttonStagiaire.Size = new System.Drawing.Size(415, 260);
+            this.buttonStagiaire.TabIndex = 4;
+            this.buttonStagiaire.Text = "Stagiaire";
+            this.buttonStagiaire.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonStagiaire.UseVisualStyleBackColor = false;
+            // 
+            // buttonMutualFormation
+            // 
+            this.buttonMutualFormation.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonMutualFormation.AutoSize = true;
+            this.buttonMutualFormation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(169)))), ((int)(((byte)(231)))));
+            this.buttonMutualFormation.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonMutualFormation.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
+            this.buttonMutualFormation.FlatAppearance.BorderSize = 2;
+            this.buttonMutualFormation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonMutualFormation.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonMutualFormation.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.buttonMutualFormation.Image = global::trainingBoard.Properties.Resources.Mutuel;
+            this.buttonMutualFormation.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonMutualFormation.Location = new System.Drawing.Point(135, 7);
+            this.buttonMutualFormation.Margin = new System.Windows.Forms.Padding(3, 3, 75, 40);
+            this.buttonMutualFormation.Name = "buttonMutualFormation";
+            this.buttonMutualFormation.Size = new System.Drawing.Size(415, 260);
+            this.buttonMutualFormation.TabIndex = 1;
+            this.buttonMutualFormation.Text = "Mutual Formation";
+            this.buttonMutualFormation.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.buttonMutualFormation.UseVisualStyleBackColor = false;
+            // 
+            // buttonFormateur
+            // 
+            this.buttonFormateur.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.buttonFormateur.AutoSize = true;
+            this.buttonFormateur.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(214)))), ((int)(((byte)(98)))));
+            this.buttonFormateur.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonFormateur.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
+            this.buttonFormateur.FlatAppearance.BorderSize = 2;
+            this.buttonFormateur.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonFormateur.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonFormateur.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.buttonFormateur.Image = global::trainingBoard.Properties.Resources.Formateur;
+            this.buttonFormateur.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.buttonFormateur.Location = new System.Drawing.Point(700, 7);
+            this.buttonFormateur.Margin = new System.Windows.Forms.Padding(75, 3, 3, 40);
+            this.buttonFormateur.Name = "buttonFormateur";
+            this.buttonFormateur.Size = new System.Drawing.Size(415, 260);
+            this.buttonFormateur.TabIndex = 2;
+            this.buttonFormateur.Text = "Formateur";
+            this.buttonFormateur.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonFormateur.UseVisualStyleBackColor = false;
+            // 
+            // buttonQuitter
+            // 
+            this.buttonQuitter.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonQuitter.AutoSize = true;
+            this.buttonQuitter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.buttonQuitter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonQuitter.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonQuitter.Location = new System.Drawing.Point(1197, 671);
+            this.buttonQuitter.Name = "buttonQuitter";
+            this.buttonQuitter.Size = new System.Drawing.Size(75, 28);
+            this.buttonQuitter.TabIndex = 6;
+            this.buttonQuitter.Text = "Quitter";
+            this.buttonQuitter.UseVisualStyleBackColor = false;
+            this.buttonQuitter.Click += new System.EventHandler(this.buttonQuitter_Click);
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Controls.Add(this.buttonMutualFormation, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.buttonStagiaire, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.buttonFormateur, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.buttonSyndicat, 0, 1);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 17);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 2;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1250, 614);
+            this.tableLayoutPanel1.TabIndex = 5;
+            // 
             // Main1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(984, 561);
+            this.ClientSize = new System.Drawing.Size(1284, 711);
             this.Controls.Add(this.buttonQuitter);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MinimumSize = new System.Drawing.Size(1000, 600);
+            this.MinimumSize = new System.Drawing.Size(1300, 750);
             this.Name = "Main1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main1";
@@ -220,7 +260,8 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -241,6 +282,7 @@
         private System.Windows.Forms.Button buttonQuitter;
         private System.Windows.Forms.ToolStripMenuItem optionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem optionsToolStripMenuItem;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }
 

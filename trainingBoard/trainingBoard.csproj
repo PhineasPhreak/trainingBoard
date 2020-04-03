@@ -99,6 +99,10 @@
     <None Include="Resources\Images\trainingBoard_200x200.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\Images\Formateur.png" />
+    <Content Include="Resources\Images\Mutuel.png" />
+    <Content Include="Resources\Images\Stagiaire.png" />
+    <Content Include="Resources\Images\Syndicat.png" />
     <Content Include="Resources\Images\trainingBoard_2_200x200.png" />
     <Content Include="Resources\Images\trainingBoard_Title_200x200.png" />
     <Content Include="Resources\Items\app_option.png" />

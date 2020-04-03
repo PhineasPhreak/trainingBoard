@@ -121,8 +121,20 @@
   <data name="app_option" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\items\app_option.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Formateur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\formateur.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="help" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Items\help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mutuel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\mutuel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stagiaire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\stagiaire.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Syndicat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\syndicat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="trainingBoard_200x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Images\trainingBoard_200x200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
