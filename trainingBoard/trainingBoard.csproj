@@ -101,6 +101,7 @@
   <ItemGroup>
     <Content Include="Resources\Images\trainingBoard_2_200x200.png" />
     <Content Include="Resources\Images\trainingBoard_Title_200x200.png" />
+    <Content Include="Resources\Items\app_option.png" />
     <Content Include="trainingBoard_Icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

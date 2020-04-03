@@ -33,13 +33,15 @@
             this.fichierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quitterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aideToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aProposDeTrainingBoardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.buttonMutualFormation = new System.Windows.Forms.Button();
             this.buttonFormateur = new System.Windows.Forms.Button();
             this.buttonSyndicat = new System.Windows.Forms.Button();
             this.buttonStagiaire = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.buttonQuitter = new System.Windows.Forms.Button();
+            this.optionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aProposDeTrainingBoardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -48,6 +50,7 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fichierToolStripMenuItem,
+            this.optionToolStripMenuItem,
             this.aideToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -66,7 +69,9 @@
             // quitterToolStripMenuItem
             // 
             this.quitterToolStripMenuItem.Name = "quitterToolStripMenuItem";
-            this.quitterToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.quitterToolStripMenuItem.ShortcutKeyDisplayString = "";
+            this.quitterToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
+            this.quitterToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.quitterToolStripMenuItem.Text = "&Quitter";
             this.quitterToolStripMenuItem.Click += new System.EventHandler(this.quitterToolStripMenuItem_Click);
             // 
@@ -77,14 +82,6 @@
             this.aideToolStripMenuItem.Name = "aideToolStripMenuItem";
             this.aideToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
             this.aideToolStripMenuItem.Text = "&Aide";
-            // 
-            // aProposDeTrainingBoardToolStripMenuItem
-            // 
-            this.aProposDeTrainingBoardToolStripMenuItem.Image = global::trainingBoard.Properties.Resources.help;
-            this.aProposDeTrainingBoardToolStripMenuItem.Name = "aProposDeTrainingBoardToolStripMenuItem";
-            this.aProposDeTrainingBoardToolStripMenuItem.Size = new System.Drawing.Size(213, 22);
-            this.aProposDeTrainingBoardToolStripMenuItem.Text = "A propos de trainingBoard";
-            this.aProposDeTrainingBoardToolStripMenuItem.Click += new System.EventHandler(this.aProposDeTrainingBoardToolStripMenuItem_Click);
             // 
             // buttonMutualFormation
             // 
@@ -159,28 +156,52 @@
             this.groupBox1.Controls.Add(this.buttonMutualFormation);
             this.groupBox1.Controls.Add(this.buttonFormateur);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(89, 104);
+            this.groupBox1.Location = new System.Drawing.Point(89, 96);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(80);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(20);
             this.groupBox1.Size = new System.Drawing.Size(806, 368);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Choisir une action a effectuer";
+            this.groupBox1.Text = "Choisir une action a effectué";
             // 
             // buttonQuitter
             // 
             this.buttonQuitter.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonQuitter.AutoSize = true;
             this.buttonQuitter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
             this.buttonQuitter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonQuitter.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonQuitter.Location = new System.Drawing.Point(897, 526);
+            this.buttonQuitter.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonQuitter.Location = new System.Drawing.Point(897, 521);
             this.buttonQuitter.Name = "buttonQuitter";
-            this.buttonQuitter.Size = new System.Drawing.Size(75, 23);
+            this.buttonQuitter.Size = new System.Drawing.Size(75, 28);
             this.buttonQuitter.TabIndex = 6;
             this.buttonQuitter.Text = "Quitter";
             this.buttonQuitter.UseVisualStyleBackColor = false;
             this.buttonQuitter.Click += new System.EventHandler(this.buttonQuitter_Click);
+            // 
+            // optionToolStripMenuItem
+            // 
+            this.optionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.optionsToolStripMenuItem});
+            this.optionToolStripMenuItem.Name = "optionToolStripMenuItem";
+            this.optionToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
+            this.optionToolStripMenuItem.Text = "&Outils";
+            // 
+            // optionsToolStripMenuItem
+            // 
+            this.optionsToolStripMenuItem.Image = global::trainingBoard.Properties.Resources.app_option;
+            this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
+            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.optionsToolStripMenuItem.Text = "Options...";
+            // 
+            // aProposDeTrainingBoardToolStripMenuItem
+            // 
+            this.aProposDeTrainingBoardToolStripMenuItem.Image = global::trainingBoard.Properties.Resources.help;
+            this.aProposDeTrainingBoardToolStripMenuItem.Name = "aProposDeTrainingBoardToolStripMenuItem";
+            this.aProposDeTrainingBoardToolStripMenuItem.Size = new System.Drawing.Size(213, 22);
+            this.aProposDeTrainingBoardToolStripMenuItem.Text = "A propos de trainingBoard";
+            this.aProposDeTrainingBoardToolStripMenuItem.Click += new System.EventHandler(this.aProposDeTrainingBoardToolStripMenuItem_Click);
             // 
             // Main1
             // 
@@ -218,6 +239,8 @@
         private System.Windows.Forms.Button buttonStagiaire;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button buttonQuitter;
+        private System.Windows.Forms.ToolStripMenuItem optionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem optionsToolStripMenuItem;
     }
 }
 
