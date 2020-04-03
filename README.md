@@ -7,7 +7,8 @@ La gestion de la formation consiste à gérer, suivre et contrôler toutes les d
 ## Software
 > **Outil de démonstration pour une meilleure approche des formations, ainsi que de leur suivie.**
 
-* dotNet Framework [**4.8**](https://dotnet.microsoft.com/download/dotnet-framework) </br>
+* Csharp version [**C# 8.0**](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-8) </br>
+* dotNet Framework [**4.8**](https://dotnet.microsoft.com/download/dotnet-framework) *(Lien de Téléchargement)* </br>
 * Microsoft Visual Studio 2019 *([**Community Version**](https://visualstudio.microsoft.com/fr/vs/community/))*
 
 ## Initiateurs & Participants
@@ -16,5 +17,5 @@ La gestion de la formation consiste à gérer, suivre et contrôler toutes les d
 
 ## License
 Software sous **MIT License** </br>
-Lien: [FR](https://fr.wikipedia.org/wiki/Licence_MIT), [EN](https://en.wikipedia.org/wiki/MIT_License)
+Pour plus d'informations: [FR](https://fr.wikipedia.org/wiki/Licence_MIT), [EN](https://en.wikipedia.org/wiki/MIT_License)
 
