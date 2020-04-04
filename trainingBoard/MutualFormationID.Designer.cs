@@ -31,11 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MutualFormationID));
             this.buttonClose = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBoxIdentifiant = new System.Windows.Forms.TextBox();
-            this.textBoxMotDePasse = new System.Windows.Forms.TextBox();
             this.buttonValidation = new System.Windows.Forms.Button();
+            this.textBoxMotDePasse = new System.Windows.Forms.TextBox();
+            this.textBoxIdentifiant = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,14 +67,34 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Identification requise";
             // 
-            // label1
+            // buttonValidation
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(31, 104);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 15);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Identifiant :";
+            this.buttonValidation.BackColor = System.Drawing.Color.LightGreen;
+            this.buttonValidation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonValidation.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonValidation.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.buttonValidation.Location = new System.Drawing.Point(255, 185);
+            this.buttonValidation.Name = "buttonValidation";
+            this.buttonValidation.Size = new System.Drawing.Size(75, 23);
+            this.buttonValidation.TabIndex = 2;
+            this.buttonValidation.Text = "Valider";
+            this.buttonValidation.UseVisualStyleBackColor = false;
+            this.buttonValidation.Click += new System.EventHandler(this.buttonValidation_Click);
+            // 
+            // textBoxMotDePasse
+            // 
+            this.textBoxMotDePasse.Location = new System.Drawing.Point(145, 128);
+            this.textBoxMotDePasse.Name = "textBoxMotDePasse";
+            this.textBoxMotDePasse.PasswordChar = '•';
+            this.textBoxMotDePasse.Size = new System.Drawing.Size(185, 21);
+            this.textBoxMotDePasse.TabIndex = 1;
+            // 
+            // textBoxIdentifiant
+            // 
+            this.textBoxIdentifiant.Location = new System.Drawing.Point(145, 101);
+            this.textBoxIdentifiant.Name = "textBoxIdentifiant";
+            this.textBoxIdentifiant.Size = new System.Drawing.Size(185, 21);
+            this.textBoxIdentifiant.TabIndex = 0;
             // 
             // label2
             // 
@@ -85,35 +105,14 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Mot de Passe :";
             // 
-            // textBoxIdentifiant
+            // label1
             // 
-            this.textBoxIdentifiant.Location = new System.Drawing.Point(145, 101);
-            this.textBoxIdentifiant.Name = "textBoxIdentifiant";
-            this.textBoxIdentifiant.Size = new System.Drawing.Size(185, 21);
-            this.textBoxIdentifiant.TabIndex = 0;
-            // 
-            // textBoxMotDePasse
-            // 
-            this.textBoxMotDePasse.Location = new System.Drawing.Point(145, 128);
-            this.textBoxMotDePasse.Name = "textBoxMotDePasse";
-            this.textBoxMotDePasse.PasswordChar = '•';
-            this.textBoxMotDePasse.Size = new System.Drawing.Size(185, 21);
-            this.textBoxMotDePasse.TabIndex = 1;
-            // 
-            // buttonValidation
-            // 
-            this.buttonValidation.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.buttonValidation.FlatAppearance.BorderSize = 2;
-            this.buttonValidation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonValidation.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonValidation.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.buttonValidation.Location = new System.Drawing.Point(255, 185);
-            this.buttonValidation.Name = "buttonValidation";
-            this.buttonValidation.Size = new System.Drawing.Size(75, 23);
-            this.buttonValidation.TabIndex = 2;
-            this.buttonValidation.Text = "Valider";
-            this.buttonValidation.UseVisualStyleBackColor = true;
-            this.buttonValidation.Click += new System.EventHandler(this.buttonValidation_Click);
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(31, 104);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(79, 15);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Identifiant :";
             // 
             // MutualFormationID
             // 
