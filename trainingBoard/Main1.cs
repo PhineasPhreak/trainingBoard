@@ -22,17 +22,18 @@ namespace trainingBoard
 
         private void Main1_Load_1(object sender, EventArgs e)
         {
+            //
             // Variables
+            //
             string current_user = Environment.UserName;
             var current_date = DateTime.Now.ToString("dd/MM/yyyy");
 
             string user_and_date = ($" - {current_user} - {current_date}");
 
-            // Initialisation main1
+            //
+            // Initialisation Main1
+            //
             this.Text = "trainingBoard - Gestion des Formations" + user_and_date;
-
-            // Menustrip 
-            this.toujoursAuPremierPlanToolStripMenuItem.Checked = false;
 
         }
 

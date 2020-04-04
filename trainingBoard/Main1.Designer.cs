@@ -247,8 +247,6 @@
             // 
             // toujoursAuPremierPlanToolStripMenuItem
             // 
-            this.toujoursAuPremierPlanToolStripMenuItem.Checked = true;
-            this.toujoursAuPremierPlanToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.toujoursAuPremierPlanToolStripMenuItem.Name = "toujoursAuPremierPlanToolStripMenuItem";
             this.toujoursAuPremierPlanToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F12;
             this.toujoursAuPremierPlanToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
