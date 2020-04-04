@@ -33,6 +33,7 @@
             this.fichierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quitterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.optionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toujoursAuPremierPlanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aideToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aProposDeTrainingBoardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -43,7 +44,6 @@
             this.buttonFormateur = new System.Windows.Forms.Button();
             this.buttonSyndicat = new System.Windows.Forms.Button();
             this.buttonQuitter = new System.Windows.Forms.Button();
-            this.toujoursAuPremierPlanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -74,7 +74,7 @@
             this.quitterToolStripMenuItem.Name = "quitterToolStripMenuItem";
             this.quitterToolStripMenuItem.ShortcutKeyDisplayString = "";
             this.quitterToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
-            this.quitterToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.quitterToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.quitterToolStripMenuItem.Text = "&Quitter";
             this.quitterToolStripMenuItem.Click += new System.EventHandler(this.quitterToolStripMenuItem_Click);
             // 
@@ -86,6 +86,14 @@
             this.optionToolStripMenuItem.Name = "optionToolStripMenuItem";
             this.optionToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
             this.optionToolStripMenuItem.Text = "&Outils";
+            // 
+            // toujoursAuPremierPlanToolStripMenuItem
+            // 
+            this.toujoursAuPremierPlanToolStripMenuItem.Name = "toujoursAuPremierPlanToolStripMenuItem";
+            this.toujoursAuPremierPlanToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F12;
+            this.toujoursAuPremierPlanToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
+            this.toujoursAuPremierPlanToolStripMenuItem.Text = "Toujours au premier plan";
+            this.toujoursAuPremierPlanToolStripMenuItem.Click += new System.EventHandler(this.toujoursAuPremierPlanToolStripMenuItem_Click);
             // 
             // optionsToolStripMenuItem
             // 
@@ -164,6 +172,7 @@
             this.buttonMutualFormation.Text = "Mutual Formation";
             this.buttonMutualFormation.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.buttonMutualFormation.UseVisualStyleBackColor = false;
+            this.buttonMutualFormation.Click += new System.EventHandler(this.buttonMutualFormation_Click);
             // 
             // buttonStagiaire
             // 
@@ -234,7 +243,7 @@
             // 
             this.buttonQuitter.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonQuitter.AutoSize = true;
-            this.buttonQuitter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.buttonQuitter.BackColor = System.Drawing.Color.LightCoral;
             this.buttonQuitter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonQuitter.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonQuitter.Location = new System.Drawing.Point(1097, 671);
@@ -244,14 +253,6 @@
             this.buttonQuitter.Text = "Quitter";
             this.buttonQuitter.UseVisualStyleBackColor = false;
             this.buttonQuitter.Click += new System.EventHandler(this.buttonQuitter_Click);
-            // 
-            // toujoursAuPremierPlanToolStripMenuItem
-            // 
-            this.toujoursAuPremierPlanToolStripMenuItem.Name = "toujoursAuPremierPlanToolStripMenuItem";
-            this.toujoursAuPremierPlanToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F12;
-            this.toujoursAuPremierPlanToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
-            this.toujoursAuPremierPlanToolStripMenuItem.Text = "Toujours au premier plan";
-            this.toujoursAuPremierPlanToolStripMenuItem.Click += new System.EventHandler(this.toujoursAuPremierPlanToolStripMenuItem_Click);
             // 
             // Main1
             // 

@@ -39,6 +39,7 @@ namespace trainingBoard
 
         private void aProposDeTrainingBoardToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // Opening new 'Apropos.cs' from and center with the parent from 'Main1'
             Apropos frmApropos = new Apropos();
             frmApropos.StartPosition = FormStartPosition.CenterParent;
             frmApropos.ShowDialog(this);
@@ -68,6 +69,15 @@ namespace trainingBoard
                 this.toujoursAuPremierPlanToolStripMenuItem.Checked = true;
             }
             
+        }
+
+        private void buttonMutualFormation_Click(object sender, EventArgs e)
+        {
+            // Opening new 'MutualFormationID.cs' from and center with the parent from 'Main1'
+            MutualFormationID frmMutualFormationID = new MutualFormationID();
+            frmMutualFormationID.StartPosition = FormStartPosition.CenterParent;
+            frmMutualFormationID.ShowDialog(this);
+            //frm.ShowDialog();
         }
     }
 }
