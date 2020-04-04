@@ -65,7 +65,7 @@
             this.groupBoxProductInformation.Size = new System.Drawing.Size(404, 66);
             this.groupBoxProductInformation.TabIndex = 1;
             this.groupBoxProductInformation.TabStop = false;
-            this.groupBoxProductInformation.Text = "Produit Information";
+            this.groupBoxProductInformation.Text = "Informations sur le produit";
             // 
             // label4
             // 
@@ -122,7 +122,7 @@
             this.groupBoxLicenceInformation.Size = new System.Drawing.Size(404, 77);
             this.groupBoxLicenceInformation.TabIndex = 2;
             this.groupBoxLicenceInformation.TabStop = false;
-            this.groupBoxLicenceInformation.Text = "Licence Information";
+            this.groupBoxLicenceInformation.Text = "Informations sur la licence";
             // 
             // label10
             // 

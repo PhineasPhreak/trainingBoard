@@ -30,7 +30,10 @@ namespace trainingBoard
 
             // Initialisation main1
             this.Text = "trainingBoard - Gestion des Formations" + user_and_date;
-            
+
+            // Menustrip 
+            this.toujoursAuPremierPlanToolStripMenuItem.Checked = false;
+
         }
 
         private void aProposDeTrainingBoardToolStripMenuItem_Click(object sender, EventArgs e)
@@ -49,6 +52,21 @@ namespace trainingBoard
         private void buttonQuitter_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void toujoursAuPremierPlanToolStripMenuItem_Click(object sender, EventArgs e)
+        { 
+            if (this.TopMost == true)
+            {
+                this.TopMost = false;
+                this.toujoursAuPremierPlanToolStripMenuItem.Checked = false;
+            }
+            else
+            {
+                this.TopMost = true;
+                this.toujoursAuPremierPlanToolStripMenuItem.Checked = true;
+            }
+            
         }
     }
 }
